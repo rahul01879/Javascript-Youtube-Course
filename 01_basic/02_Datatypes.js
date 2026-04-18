@@ -20,6 +20,11 @@ let state; // undefined
 
 // typeOf
 
-console.log(typeof null)
+console.log(typeof null)  // this is a bug in javascript because null is a primitive value but it return object because of legacy code and for backward compatibility it is not change
+console.log(typeof state) // undefined
+console.log(typeof name) // string
+console.log(typeof age) // number
+console.log(typeof isLogined) // boolean
 
+console.log(typeof undefined) // undefined
 
